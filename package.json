@@ -1,15 +1,19 @@
 {
-  "name": "custom-video-player",
+  "name": "video-player-customisation",
   "version": "1.0.0",
   "main": "./build/project.js",
   "scripts": {
     "test": "echo npx tsc -w",
     "build": "npx tsc -w "
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ammar942/custom-videoPlayer.git"
+  },
+  "author": "ammar atef",
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.7.3"
   },
-  "description": ""
+  "description": "making custom video player for web browsers"
 }
