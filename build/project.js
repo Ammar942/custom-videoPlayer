@@ -230,8 +230,8 @@ class VideoPlayer {
     }
 }
 let vp = new VideoPlayer("container", "../Mingle Game Song “Round and Round” Lyric Video .mp4", "red", 5, true, true);
-let vp2 = new VideoPlayer("container", "../Mingle Game Song “Round and Round” Lyric Video .mp4", "black", 3, true, false);
-let vp3 = new VideoPlayer("container", "../Mingle Game Song “Round and Round” Lyric Video .mp4", "blue");
+let vp2 = new VideoPlayer("container", "../Mingle Game Song “Round and Round” Lyric Video .mp4", "blue", 3, true, false);
+let vp3 = new VideoPlayer("container", "../Mingle Game Song “Round and Round” Lyric Video .mp4", "violet", 10);
 // let vp4 = new VideoPlayer(
 //   "container",
 //   "../Mingle Game Song “Round and Round” Lyric Video .mp4"

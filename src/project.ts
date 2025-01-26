@@ -274,7 +274,7 @@ let vp = new VideoPlayer(
 let vp2 = new VideoPlayer(
   "container",
   "../Mingle Game Song “Round and Round” Lyric Video .mp4",
-  "black",
+  "blue",
   3,
   true,
   false
@@ -282,7 +282,8 @@ let vp2 = new VideoPlayer(
 let vp3 = new VideoPlayer(
   "container",
   "../Mingle Game Song “Round and Round” Lyric Video .mp4",
-  "blue"
+  "violet",
+  10
 );
 // let vp4 = new VideoPlayer(
 //   "container",
