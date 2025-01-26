@@ -1,7 +1,7 @@
 {
-  "name": "projec",
+  "name": "custom-video-player",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./build/project.js",
   "scripts": {
     "test": "echo npx tsc -w",
     "build": "npx tsc -w "
