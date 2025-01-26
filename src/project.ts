@@ -134,6 +134,12 @@ class VideoPlayer implements VideoInter {
           playbtn.classList.add("fa-play");
         }
       };
+      video.addEventListener("timeupdate", function () {
+        if (range.valueAsNumber.toFixed(1) == video.duration.toFixed(1)) {
+          playbtn?.classList.remove("fa-pause");
+          playbtn?.classList.add("fa-play");
+        }
+      });
       ////////////////////////////////////////////////////////////////
       let mutebtn: HTMLInputElement | null = null;
       mutebtn = document.createElement("i") as HTMLInputElement;
@@ -279,6 +285,7 @@ let vp2 = new VideoPlayer(
   true,
   false
 );
+
 let vp3 = new VideoPlayer(
   "container",
   "../Mingle Game Song “Round and Round” Lyric Video .mp4",

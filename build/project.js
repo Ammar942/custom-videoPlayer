@@ -106,6 +106,12 @@ class VideoPlayer {
                     playbtn.classList.add("fa-play");
                 }
             };
+            video.addEventListener("timeupdate", function () {
+                if (range.valueAsNumber.toFixed(1) == video.duration.toFixed(1)) {
+                    playbtn === null || playbtn === void 0 ? void 0 : playbtn.classList.remove("fa-pause");
+                    playbtn === null || playbtn === void 0 ? void 0 : playbtn.classList.add("fa-play");
+                }
+            });
             ////////////////////////////////////////////////////////////////
             let mutebtn = null;
             mutebtn = document.createElement("i");
